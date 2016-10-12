@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#logo{
+	position: fixed;
+	left:10px;
+	height: 12%;
+	width: 12%;
+	
+}
+
+.vis{
+	height: 100vh;
+	width: 100vw;
+	/*position: fixed;*/
+	right: 0;
+	top: 0;
+	background-image:url("./images/apple_desk2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: none;
+	color: black;
+	text-align: center;
+	/* -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;*/
+
+}
+.headline{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 250px;
+	font-size: 500%;
+	
+}
+.portfolio{
+	font-family: 'Montserrat', sans-serif;
+	height: 10px;
+	width: 100vw;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 20px;
+
+}
+.projectlinks,.projectdesc{
+	margin-top: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: space-around;
+	align-items:center;
+	justify-content: center;
+	width: 100vw;
+	height: 302px;
+}
+
+.left, .middle, .right, .projdesctext {
+	height: 300px;
+	width: 30vw;
+	margin: 10px;
+	border-radius: 5px;
+	border: black solid 1px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: none;
+	text-align: center;
+}
+
+.projdesctext {
+	font-family: 'Roboto', sans-serif;
+	border: 0;
+	height: 50px;
+}
+
+
+.left{
+	background-image: url("./images/bozemanbytrail3.jpg");
+}
+.middle{
+	background-image: url("./images/threeQ.jpg");
+}
+.right{
+	background-image: url("./images/phptodo.jpg");
+}
+
+
+.left div, .middle div, .right div {
+	height: 100%;
+	width: 100%;
+}
+
+.projectdesc{
+	margin-top: 20px;
+
+}
+.bozemandesc{
+	height: 300px;
+	width: 30vw;
+	margin-left: 40px;
+}
+.abouthead{
+	font-family: 'Montserrat', sans-serif;
+	height: 10px;
+	width: 100vw;
+	font-size: 48px;
+	text-align: center;
+	padding-bottom: 60px;
+
+}
+.about{
+	font-family: 'Roboto', sans-serif;
+	/*height: 15px;*/
+	width: 88vw;
+	margin-left:5vw;
+	margin-right: 5vw;
+	margin-bottom: 40px;
+	font-size: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+.contacthead{
+	font-family: 'Montserrat', sans-serif;
+	height: 10px;
+	width: 100vw;
+	font-size: 48px;
+	text-align: center;
+	padding-bottom: 60px;
+
+}
+.contact{
+	font-family: 'Roboto', sans-serif;
+	height: 15px;
+	width: 78vw;
+	margin-left:10vw;
+	margin-right: 10vw;
+	margin-bottom: 40px;
+	font-size: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
