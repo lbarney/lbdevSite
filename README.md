@@ -6,4 +6,4 @@
 
 ###Copyright
 
-&copy LB Development via [www.lbdev.us](http://lbdev.us), 2016
+(C) LB Development via [www.lbdev.us](http://lbdev.us), 2016
